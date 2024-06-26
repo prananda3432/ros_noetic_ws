@@ -213,3 +213,9 @@ catkin_install_python(PROGRAMS scripts/pc_2.py scripts/pc_2.py
 catkin_install_python(PROGRAMS scripts/pc_3.py scripts/pc_3.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
+catkin_install_python(PROGRAMS scripts/pc_raka.py scripts/pc_raka.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+catkin_install_python(PROGRAMS scripts/pc_devi.py scripts/pc_devi.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)

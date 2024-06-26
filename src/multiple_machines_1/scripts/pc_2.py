@@ -8,7 +8,7 @@ def callback(data):
     pub.publish(data_pc2)
 
 def listener():
-    rospy.init_node('PC_2')
+    rospy.init_node('PC_Yusril')
     rospy.Subscriber('data_pc1', Int32, callback)
     global pub
     pub = rospy.Publisher('data_pc2', Int32, queue_size=10)
